@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0001",
+    "nome": "Álvaro Pires",
+    "funcao": "Gerente de Comunicação",
+    "foto": "fotos/01-alvaro-pires.jpg"
+  },
+  {
+    "id": "0002",
+    "nome": "Weber Anjos",
+    "funcao": "Gerente Administrativo",
+    "foto": "fotos/02-weber-anjos.jpg"
+  },
+  {
+    "id": "0003",
+    "nome": "Lucas Augusto",
+    "funcao": "Gerente de Materiais",
+    "foto": "fotos/03-lucas-augusto.jpg"
+  },
+  {
+    "id": "0004",
+    "nome": "Antônio Henrique",
+    "funcao": "Líder de Equipe",
+    "foto": "fotos/04-antonio-henrique.jpg"
+  },
+  {
+    "id": "0005",
+    "nome": "Josué Fernando",
+    "funcao": "Gerente de IA",
+    "foto": "fotos/05-josue-fernando.jpg"
+  },
+  {
+    "id": "0006",
+    "nome": "Lucas Ribeiro",
+    "funcao": "Gerente de TI",
+    "foto": "fotos/06-lucas-ribeiro.jpg"
+  }
+]
