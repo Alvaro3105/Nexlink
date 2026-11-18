@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crachá NexLink</title>
+<style>
+  @font-face { font-family: 'Nunito'; font-weight: 600; font-style: normal; font-display: swap; src: url('fonts/nunito-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Nunito'; font-weight: 700; font-style: normal; font-display: swap; src: url('fonts/nunito-latin-700-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Nunito'; font-weight: 800; font-style: normal; font-display: swap; src: url('fonts/nunito-latin-800-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Nunito'; font-weight: 900; font-style: normal; font-display: swap; src: url('fonts/nunito-latin-900-normal.woff2') format('woff2'); }
+  body { margin: 0; min-height: 100vh; display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: center; background: #E8EEF7; font-family: 'Nunito', system-ui, sans-serif; padding: 40px; box-sizing: border-box; }
+  .lado { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .lado > p { margin: 0; font-size: 13px; font-weight: 800; color: #3D5A8A; letter-spacing: 1px; text-transform: uppercase; }
+  .cartao { border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(11,31,77,.25); zoom: 1.6; }
+  @page { size: 54mm 86mm; margin: 0; }
+  @media print {
+    body { display: block; padding: 0; background: none; min-height: 0; }
+    .lado > p { display: none; }
+    .cartao { zoom: 1; border-radius: 0; box-shadow: none; page-break-after: always; break-after: page; }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+<section class="lado"><p>Frente</p><div class="cartao" id="frente">
+<div style="width: 204px; height: 325px; position: relative; overflow: hidden; background: #F5F9FF; font-family: 'Nunito', system-ui, sans-serif; color: #0B1F4D">
+<svg width="204" height="325" viewBox="0 0 204 325" style="position: absolute; left: 0; top: 0" aria-hidden="true">
+<g stroke="#C7DBF5" stroke-width="1" fill="none">
+<path d="M150 0 L172 34 L204 22 M172 34 L190 78 L204 70 M172 34 L140 52 L190 78 M140 52 L160 96 L190 78 M160 96 L204 118"></path>
+<path d="M0 104 L22 128 L0 150 M22 128 L44 112"></path>
+</g>
+<g fill="#8DB8EE">
+<circle cx="172" cy="34" r="3"></circle>
+<circle cx="140" cy="52" r="2.5"></circle>
+<circle cx="190" cy="78" r="3.5"></circle>
+<circle cx="160" cy="96" r="2.5"></circle>
+<circle cx="22" cy="128" r="3"></circle>
+<circle cx="44" cy="112" r="2"></circle>
+</g>
+<path d="M0 246 C 56 214, 148 214, 204 238 L 204 325 L 0 325 Z" fill="#1D5BD6"></path>
+<path d="M0 262 C 64 236, 150 238, 204 256" fill="none" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.2"></path>
+<g fill="#FFFFFF" fill-opacity="0.5">
+<circle cx="38" cy="250" r="2"></circle>
+<circle cx="168" cy="248" r="2"></circle>
+</g>
+</svg>
+<div style="position: absolute; left: 82px; top: 11px; width: 40px; height: 8px; border-radius: 4px; background: #FFFFFF; border: 1px solid #B9CCE8; box-sizing: border-box"></div>
+<div style="position: relative; display: flex; flex-direction: column; align-items: center; padding-top: 30px; gap: 3px">
+<div style="display: flex; align-items: center; gap: 6px">
+<svg width="26" height="26" viewBox="0 0 44 44" role="img" aria-label="Logo NexLink">
+<path d="M9 36 V15 a6 6 0 0 1 11 -3.3 L 23 17" fill="none" stroke="#1D5BD6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M21 27 L 24 32.3 a6 6 0 0 0 11 -3.3 V 8" fill="none" stroke="#3B9BF0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<span style="font-size: 21px; font-weight: 900; letter-spacing: -0.4px; color: #0B1F4D">nexlink</span>
+</div>
+<div style="font-size: 7.5px; font-weight: 800; letter-spacing: 1.6px; text-transform: uppercase; color: #3D5A8A">Conectando conhecimento</div>
+</div>
+<div style="position: relative; display: flex; justify-content: center; margin-top: 14px">
+<div style="width: 92px; height: 92px; border-radius: 50%; background: conic-gradient(#1D5BD6 0 72%, #3B9BF0 72% 100%); display: flex; align-items: center; justify-content: center">
+<div style="width: 84px; height: 84px; border-radius: 50%; background: #F5F9FF; display: flex; align-items: center; justify-content: center">
+<div style="width: 78px; height: 78px; border-radius: 50%; background: #DCE6F4; display: flex; align-items: center; justify-content: center; font-size: 9px; font-weight: 800; letter-spacing: 1px; color: #3D5A8A">FOTO</div>
+</div>
+</div>
+</div>
+<div style="position: relative; display: flex; flex-direction: column; align-items: center; margin-top: 10px; padding: 0 14px; gap: 6px; text-align: center">
+<div style="font-size: 17px; font-weight: 900; line-height: 1.1; color: #0B1F4D">[Seu Nome]</div>
+<div style="font-size: 8.5px; font-weight: 800; letter-spacing: 1.3px; text-transform: uppercase; color: #FFFFFF; background: #0B1F4D; border-radius: 999px; padding: 3px 10px">[Função]</div>
+</div>
+<div style="position: absolute; left: 0; right: 0; bottom: 16px; display: flex; flex-direction: column; align-items: center; gap: 7px; color: #FFFFFF">
+<div style="font-size: 10.5px; font-weight: 800; text-align: center; line-height: 1.25">Tecnologia que aproxima.</div>
+<div style="display: flex; align-items: center; gap: 6px; font-size: 8px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; opacity: 0.92">
+<span>COTEMIG 2026</span>
+<span style="width: 3px; height: 3px; border-radius: 50%; background: #FFFFFF"></span>
+<span>ID [0001]</span>
+</div>
+</div>
+</div>
+</div></section>
+<section class="lado"><p>Verso</p><div class="cartao" id="verso">
+<div style="width: 204px; height: 325px; position: relative; overflow: hidden; background: #0B1F4D; font-family: 'Nunito', system-ui, sans-serif; color: #FFFFFF">
+<svg width="204" height="325" viewBox="0 0 204 325" style="position: absolute; left: 0; top: 0" aria-hidden="true">
+<path d="M0 0 H204 V128 C 150 150, 60 146, 0 122 Z" fill="#1D5BD6"></path>
+<g stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="1" fill="none">
+<path d="M0 26 L26 48 L0 70 M26 48 L52 36 M178 92 L204 80 M178 92 L204 112"></path>
+</g>
+<g fill="#FFFFFF" fill-opacity="0.35">
+<circle cx="26" cy="48" r="2.5"></circle>
+<circle cx="52" cy="36" r="2"></circle>
+<circle cx="178" cy="92" r="2.5"></circle>
+</g>
+</svg>
+<div style="position: absolute; left: 82px; top: 11px; width: 40px; height: 8px; border-radius: 4px; background: #F5F9FF; border: 1px solid #8DB8EE; box-sizing: border-box"></div>
+<div style="position: relative; display: flex; flex-direction: column; align-items: center; padding: 30px 14px 0; gap: 8px; text-align: center">
+<div style="display: flex; align-items: center; gap: 5px">
+<svg width="20" height="20" viewBox="0 0 44 44" role="img" aria-label="Logo NexLink">
+<path d="M9 36 V15 a6 6 0 0 1 11 -3.3 L 23 17" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M21 27 L 24 32.3 a6 6 0 0 0 11 -3.3 V 8" fill="none" stroke="#BFDDFB" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<span style="font-size: 16px; font-weight: 900; letter-spacing: -0.3px">nexlink</span>
+</div>
+<div style="font-size: 11.5px; font-weight: 800; line-height: 1.25">Tecnologia que aproxima.<br>Soluções que transformam.</div>
+</div>
+<div style="position: relative; display: flex; flex-direction: column; align-items: center; margin-top: 10px; gap: 6px">
+<div style="width: 96px; height: 96px; background: #FFFFFF; border-radius: 12px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(11,31,77,0.35)">
+<img src="qrcode-site.svg" alt="QR code para o site da NexLink" style="width: 86px; height: 86px; display: block">
+</div>
+<div style="font-size: 8.5px; font-weight: 700; color: #DCE6F4">Aponte a câmera e conheça a NexLink</div>
+</div>
+<div style="position: relative; margin-top: 10px; display: flex; justify-content: center; gap: 4px; flex-wrap: wrap; padding: 0 12px">
+<span style="font-size: 7.5px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; border: 1px solid rgba(255,255,255,0.4); border-radius: 999px; padding: 2px 6px">Redes</span>
+<span style="font-size: 7.5px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; border: 1px solid rgba(255,255,255,0.4); border-radius: 999px; padding: 2px 6px">PCs</span>
+<span style="font-size: 7.5px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; border: 1px solid rgba(255,255,255,0.4); border-radius: 999px; padding: 2px 6px">CFTV</span>
+<span style="font-size: 7.5px; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; border: 1px solid rgba(255,255,255,0.4); border-radius: 999px; padding: 2px 6px">Workstations</span>
+</div>
+<div style="position: absolute; left: 14px; right: 14px; bottom: 14px; border-top: 1px solid rgba(255,255,255,0.25); padding-top: 8px; display: flex; flex-direction: column; align-items: center; gap: 3px">
+<div style="display: flex; align-items: center; gap: 5px; font-size: 10px; font-weight: 800">
+<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"></path></svg>
+<span>(31) 9 9648-6259</span>
+</div>
+<div style="font-size: 7.5px; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; color: #B9CCE8">Uso pessoal e intransferível</div>
+</div>
+</div>
+</div></section>
+</body>
+</html>
